@@ -31,15 +31,20 @@
 [K0] https://github.com/dinhtt-randrise/thi-quoc-tich-my/raw/main/mp3/003/keyword_00.mp3
 [K1] https://github.com/dinhtt-randrise/thi-quoc-tich-my/raw/main/mp3/003/keyword_01.mp3
 [A] https://github.com/dinhtt-randrise/thi-quoc-tich-my/raw/main/mp3/003/answer.mp3
+[AF] https://github.com/dinhtt-randrise/thi-quoc-tich-my/raw/main/mp3/003/answer_full.mp3
 [Z] https://github.com/dinhtt-randrise/thi-quoc-tich-my/raw/main/mp3/003/all.zip
 
 
 5. What do we call _the first ten amendments_ to the _Constitution_?
 
+=> The Bill of Rights
+= F => It is "The Bill of Rights".
+
 [Q] https://github.com/dinhtt-randrise/thi-quoc-tich-my/raw/main/mp3/005/question.mp3
 [K0] https://github.com/dinhtt-randrise/thi-quoc-tich-my/raw/main/mp3/005/keyword_00.mp3
 [K1] https://github.com/dinhtt-randrise/thi-quoc-tich-my/raw/main/mp3/005/keyword_01.mp3
 [A] https://github.com/dinhtt-randrise/thi-quoc-tich-my/raw/main/mp3/005/answer.mp3
+[AF] https://github.com/dinhtt-randrise/thi-quoc-tich-my/raw/main/mp3/005/answer_full.mp3
 [Z] https://github.com/dinhtt-randrise/thi-quoc-tich-my/raw/main/mp3/005/all.zip
 
 
