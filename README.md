@@ -6,7 +6,7 @@
 | (_| | | | | | | | | |_| |_ 
  \__,_|_|_| |_|_| |_|\__|\__| @ randrise.com
 --------------------------------------------
-          Thi quốc tịch Mỹ
+           Thi quốc tịch Mỹ
 --------------------------------------------
 
 
@@ -23,6 +23,9 @@
   ---------------------------------------
 
 3. The idea of self-government is in _the first three words_ of the _Constitution_. What are these words?
+
+=> We the people
+
 
 
 ```
