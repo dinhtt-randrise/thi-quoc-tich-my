@@ -27,5 +27,11 @@
 => We the people
 
 [Q] https://github.com/dinhtt-randrise/thi-quoc-tich-my/raw/main/mp3/003/question.mp3
+[K0] https://github.com/dinhtt-randrise/thi-quoc-tich-my/raw/main/mp3/003/keyword_00.mp3
+[K1] https://github.com/dinhtt-randrise/thi-quoc-tich-my/raw/main/mp3/003/keyword_01.mp3
+[A] https://github.com/dinhtt-randrise/thi-quoc-tich-my/raw/main/mp3/003/answer.mp3
+[Z] https://github.com/dinhtt-randrise/thi-quoc-tich-my/raw/main/mp3/003/all.zip
+
+
 
 ```
