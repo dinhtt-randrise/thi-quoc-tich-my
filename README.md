@@ -25,6 +25,7 @@
 3. The idea of self-government is in _the first three words_ of the _Constitution_. What are these words?
 
 => We the people
+= F => Those words are "We the people". 
 
 [Q] https://github.com/dinhtt-randrise/thi-quoc-tich-my/raw/main/mp3/003/question.mp3
 [K0] https://github.com/dinhtt-randrise/thi-quoc-tich-my/raw/main/mp3/003/keyword_00.mp3
