@@ -86,4 +86,22 @@
 [Z] https://github.com/dinhtt-randrise/thi-quoc-tich-my/raw/main/mp3/005/all.zip
 
 
+41. Under our _Constitution_, some powers belong to the _federal government_. What is _one power_ of the federal government?
+
+=>
+- to print money
+- to declare war
+- to create an army
+- to make treaties
+= F => It is "to print money".
+
+[Q] https://github.com/dinhtt-randrise/thi-quoc-tich-my/raw/main/mp3/041/question.mp3
+[K0] https://github.com/dinhtt-randrise/thi-quoc-tich-my/raw/main/mp3/041/keyword_00.mp3
+[K1] https://github.com/dinhtt-randrise/thi-quoc-tich-my/raw/main/mp3/041/keyword_01.mp3
+[K2] https://github.com/dinhtt-randrise/thi-quoc-tich-my/raw/main/mp3/041/keyword_02.mp3
+[A] https://github.com/dinhtt-randrise/thi-quoc-tich-my/raw/main/mp3/041/answer.mp3
+[AF] https://github.com/dinhtt-randrise/thi-quoc-tich-my/raw/main/mp3/041/answer_full.mp3
+[Z] https://github.com/dinhtt-randrise/thi-quoc-tich-my/raw/main/mp3/041/all.zip
+
+
 ```
