@@ -105,4 +105,23 @@
 [Z] https://github.com/dinhtt-randrise/thi-quoc-tich-my/raw/main/mp3/041/all.zip
 
 
+42. Under our _Constitution_, some powers belong to the _states_. What is _one power_ of the states?
+
+=>
+- providing schooling & education
+- provide protection (police)
+- provide safety (fire department)
+- give a driver's license
+- approve zoning and land use
+= F => It is "give a driver's license".
+
+[Q] https://github.com/dinhtt-randrise/thi-quoc-tich-my/raw/main/mp3/042/question.mp3
+[K0] https://github.com/dinhtt-randrise/thi-quoc-tich-my/raw/main/mp3/042/keyword_00.mp3
+[K1] https://github.com/dinhtt-randrise/thi-quoc-tich-my/raw/main/mp3/042/keyword_01.mp3
+[K2] https://github.com/dinhtt-randrise/thi-quoc-tich-my/raw/main/mp3/042/keyword_02.mp3
+[A] https://github.com/dinhtt-randrise/thi-quoc-tich-my/raw/main/mp3/042/answer.mp3
+[AF] https://github.com/dinhtt-randrise/thi-quoc-tich-my/raw/main/mp3/042/answer_full.mp3
+[Z] https://github.com/dinhtt-randrise/thi-quoc-tich-my/raw/main/mp3/042/all.zip
+
+
 ```
