@@ -17,6 +17,9 @@
 # 2024 ☘ 100 CÂU THI QUỐC TỊCH MỸ ☘ PHẦN 1 ☘ Đảm Bảo Dễ Học Dễ Nhớ ☘ 100 Citizenship Questions 2024
 # https://www.youtube.com/watch?v=wttq1EXOMi0
 
+# Học 100 câu thi quốc tịch Mỹ
+# https://www.kaggle.com/code/dinhttrandrise/h-c-100-c-u-thi-qu-c-t-ch-m
+
 
 ============================================
              DỮ LIỆU
