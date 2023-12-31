@@ -46,6 +46,7 @@
 
 # Học 100 câu thi quốc tịch Mỹ
 # https://www.kaggle.com/code/dinhttrandrise/h-c-100-c-u-thi-qu-c-t-ch-m
+# http://randrise.com/hoc-100-cau-thi-quoc-tich-my.html
 
 
 ============================================
