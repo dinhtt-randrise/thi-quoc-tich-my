@@ -48,6 +48,18 @@
 # https://www.kaggle.com/code/dinhttrandrise/h-c-100-c-u-thi-qu-c-t-ch-m
 # http://randrise.com/hoc-100-cau-thi-quoc-tich-my.html
 
+# N400 YES/NO Questions 🍁 PHẦN 1 🍁 US Citizenship 2023 🍁 n400 (1)
+# https://www.youtube.com/watch?v=-hbnQgpSb9M
+
+# N400 YES/NO Questions 🍁 PHẦN 2 🍁 US Citizenship 2023 🍁 n400 (2)
+# https://www.youtube.com/watch?v=otYpK88f2lU
+
+# WHAT MEAN - N400 🦚 PHẦN 3 🦚 US Citizenship 2023 🦚 n400 (3)
+# https://www.youtube.com/watch?v=2J_S_U21VCc
+
+# N400 - THÔNG TIN CÁ NHÂN 🪐 PHẦN 4 🪐 US Citizenship 2023 🪐 n400 (4)
+# https://www.youtube.com/watch?v=zLEjGiOgoaA
+
 
 ============================================
              DỮ LIỆU
@@ -55,73 +67,6 @@
 
 # 100 câu thi quốc tịch Mỹ
 # https://www.kaggle.com/code/dinhttrandrise/100-c-u-thi-qu-c-t-ch-m
-
-
-============================================
-         100 CÂU THI QUỐC TỊCH MỸ
-  ---------------------------------------
-
-3. The idea of self-government is in _the first three words_ of the _Constitution_. What are these words?
-
-=> We the people
-= F => Those words are "We the people". 
-
-[Q] https://github.com/dinhtt-randrise/thi-quoc-tich-my/raw/main/mp3/003/question.mp3
-[K0] https://github.com/dinhtt-randrise/thi-quoc-tich-my/raw/main/mp3/003/keyword_00.mp3
-[K1] https://github.com/dinhtt-randrise/thi-quoc-tich-my/raw/main/mp3/003/keyword_01.mp3
-[A] https://github.com/dinhtt-randrise/thi-quoc-tich-my/raw/main/mp3/003/answer.mp3
-[AF] https://github.com/dinhtt-randrise/thi-quoc-tich-my/raw/main/mp3/003/answer_full.mp3
-[Z] https://github.com/dinhtt-randrise/thi-quoc-tich-my/raw/main/mp3/003/all.zip
-
-
-5. What do we call _the first ten amendments_ to the _Constitution_?
-
-=> The Bill of Rights
-= F => It is "The Bill of Rights".
-
-[Q] https://github.com/dinhtt-randrise/thi-quoc-tich-my/raw/main/mp3/005/question.mp3
-[K0] https://github.com/dinhtt-randrise/thi-quoc-tich-my/raw/main/mp3/005/keyword_00.mp3
-[K1] https://github.com/dinhtt-randrise/thi-quoc-tich-my/raw/main/mp3/005/keyword_01.mp3
-[A] https://github.com/dinhtt-randrise/thi-quoc-tich-my/raw/main/mp3/005/answer.mp3
-[AF] https://github.com/dinhtt-randrise/thi-quoc-tich-my/raw/main/mp3/005/answer_full.mp3
-[Z] https://github.com/dinhtt-randrise/thi-quoc-tich-my/raw/main/mp3/005/all.zip
-
-
-41. Under our _Constitution_, some powers belong to the _federal government_. What is _one power_ of the federal government?
-
-=>
-- to print money
-- to declare war
-- to create an army
-- to make treaties
-= F => It is "to print money".
-
-[Q] https://github.com/dinhtt-randrise/thi-quoc-tich-my/raw/main/mp3/041/question.mp3
-[K0] https://github.com/dinhtt-randrise/thi-quoc-tich-my/raw/main/mp3/041/keyword_00.mp3
-[K1] https://github.com/dinhtt-randrise/thi-quoc-tich-my/raw/main/mp3/041/keyword_01.mp3
-[K2] https://github.com/dinhtt-randrise/thi-quoc-tich-my/raw/main/mp3/041/keyword_02.mp3
-[A] https://github.com/dinhtt-randrise/thi-quoc-tich-my/raw/main/mp3/041/answer.mp3
-[AF] https://github.com/dinhtt-randrise/thi-quoc-tich-my/raw/main/mp3/041/answer_full.mp3
-[Z] https://github.com/dinhtt-randrise/thi-quoc-tich-my/raw/main/mp3/041/all.zip
-
-
-42. Under our _Constitution_, some powers belong to the _states_. What is _one power_ of the states?
-
-=>
-- providing schooling & education
-- provide protection (police)
-- provide safety (fire department)
-- give a driver's license
-- approve zoning and land use
-= F => It is "give a driver's license".
-
-[Q] https://github.com/dinhtt-randrise/thi-quoc-tich-my/raw/main/mp3/042/question.mp3
-[K0] https://github.com/dinhtt-randrise/thi-quoc-tich-my/raw/main/mp3/042/keyword_00.mp3
-[K1] https://github.com/dinhtt-randrise/thi-quoc-tich-my/raw/main/mp3/042/keyword_01.mp3
-[K2] https://github.com/dinhtt-randrise/thi-quoc-tich-my/raw/main/mp3/042/keyword_02.mp3
-[A] https://github.com/dinhtt-randrise/thi-quoc-tich-my/raw/main/mp3/042/answer.mp3
-[AF] https://github.com/dinhtt-randrise/thi-quoc-tich-my/raw/main/mp3/042/answer_full.mp3
-[Z] https://github.com/dinhtt-randrise/thi-quoc-tich-my/raw/main/mp3/042/all.zip
 
 
 ```
