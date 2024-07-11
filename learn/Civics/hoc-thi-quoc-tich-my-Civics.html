@@ -11,7 +11,7 @@ var index = 0;
 function g_shuffle() {
     var cur_data = [];
     for (var idx = 0; idx < data.length; idx++) {
-        cur_data.append('' + data[idx]);
+        cur_data.push('' + data[idx]);
     }
     var new_data = []
     while (cur_data.length > 0) {
@@ -29,13 +29,13 @@ function g_shuffle() {
             }
             item = '' + data[idx];
         }
-        new_data.append(item);
+        new_data.push(item);
         var tmp_data = []
         for (var idx = 0; idx < cur_data.length; idx++) {
             if ('' + cur_data[idx] == item) {
                 continue;
             }
-            tmp_data.append('' + cur_data[idx]);
+            tmp_data.push('' + cur_data[idx]);
         }
         cur_data = tmp_data;
     }
