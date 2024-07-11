@@ -12,8 +12,12 @@ function g_shuffle() {
     cur_data = data;
     new_data = []
     while (cur_data.length > 0) {
-        index = randomIntFromInterval(0, cur_data.length - 1);
-        item = cur_data[index];
+        index = randomIntFromInterval(0, data.length - 1);
+        item = data[index];
+        while (cur_data.indexOf(item) < 0) {
+            index = randomIntFromInterval(0, data.length - 1);
+            item = data[index];
+        }
         new_data.append(item);
         tmp_data = []
         for (var idx = 0; idx < cur_data.length; idx++) {
