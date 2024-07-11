@@ -1,0 +1,15 @@
+Were you ever a member of, or did you ever serve in, help, or otherwise participate in, any of the following groups:
+
+A. Military unit?
+B. Paramilitary unit (a group of people who act like a military group but are not part of the official military)?
+C. Police unit?
+D. Self-defense unit?
+E. Vigilante unit (a group of people who act like the police, but are not part of the official police)?
+F. Rebel group?
+G. Guerrilla group (a group of people who use weapons against or otherwise physically attack the military, police, goverment, or other people)?
+H. Militia (an army of people, not part of the official military)?
+I. Insurgent organization (a group that uses weapons and fights against a goverment)?
+
+=>
+
+No

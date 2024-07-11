@@ -1,0 +1,11 @@
+Were you ever a worker, volunteer, or soldier, or did you otherwise ever serve in any of the following:
+
+A. Prison or jail?
+B. Prison camp?
+C. Detention facility (a place where people are forced to stay)?
+D. Labor camp (a place where people are forced to work)?
+E. Any other place where people were forced to stay?
+
+=>
+
+No
