@@ -13,18 +13,18 @@ function g_shuffle() {
     new_data = []
     while (cur_data.length > 0) {
         seed = randomIntFromInterval(1000, 10000);
-        index = randomIntFromInterval(0, data.length - 1);
+        idx = randomIntFromInterval(0, data.length - 1);
         for (var s = 0; s <= seed; s++) {
-            index = randomIntFromInterval(0, data.length - 1);
+            idx = randomIntFromInterval(0, data.length - 1);
         }
-        item = data[index];
+        item = data[idx];
         while (cur_data.indexOf(item) < 0) {
             seed = randomIntFromInterval(1000, 10000);
-            index = randomIntFromInterval(0, data.length - 1);
+            idx = randomIntFromInterval(0, data.length - 1);
             for (var s = 0; s <= seed; s++) {
-                index = randomIntFromInterval(0, data.length - 1);
+                idx = randomIntFromInterval(0, data.length - 1);
             }
-            item = data[index];
+            item = data[idx];
         }
         new_data.append(item);
         tmp_data = []
@@ -37,6 +37,8 @@ function g_shuffle() {
         cur_data = tmp_data;
     }
     data = new_data;
+    index = 0;
+    g_show(index);
 }
         
 function g_onload() {
