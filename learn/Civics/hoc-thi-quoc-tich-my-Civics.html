@@ -9,7 +9,10 @@ var data = ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13',
 var index = 0;
 
 function g_shuffle() {
-    cur_data = data;
+    cur_data = [];
+    for (var idx = 0; idx < data.length; idx++) {
+        cur_data.append('' + data[idx]);
+    }
     new_data = []
     while (cur_data.length > 0) {
         seed = randomIntFromInterval(1000, 10000);
@@ -17,22 +20,22 @@ function g_shuffle() {
         for (var s = 0; s <= seed; s++) {
             idx = randomIntFromInterval(0, data.length - 1);
         }
-        item = data[idx];
+        item = '' + data[idx];
         while (cur_data.indexOf(item) < 0) {
             seed = randomIntFromInterval(1000, 10000);
             idx = randomIntFromInterval(0, data.length - 1);
             for (var s = 0; s <= seed; s++) {
                 idx = randomIntFromInterval(0, data.length - 1);
             }
-            item = data[idx];
+            item = '' + data[idx];
         }
         new_data.append(item);
         tmp_data = []
         for (var idx = 0; idx < cur_data.length; idx++) {
-            if (cur_data[idx] == item) {
+            if ('' + cur_data[idx] == item) {
                 continue;
             }
-            tmp_data.append(cur_data[idx]);
+            tmp_data.append('' + cur_data[idx]);
         }
         cur_data = tmp_data;
     }
