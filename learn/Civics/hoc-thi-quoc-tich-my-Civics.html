@@ -11,7 +11,11 @@ var index = 0;
 function g_shuffle() {
     var cur_data = [];
     for (var idx = 0; idx < data.length; idx++) {
-        cur_data.push('' + data[idx]);
+        var item = '' + data[idx];
+        if (item == 'undefined') {
+            continue
+        }
+        cur_data.push(item);
     }
     var new_data = []
     while (cur_data.length > 0) {
@@ -21,7 +25,7 @@ function g_shuffle() {
             idx = randomIntFromInterval(0, data.length - 1);
         }
         var item = '' + data[idx];
-        while (cur_data.indexOf(item) < 0) {
+        while (item == 'undefined' || cur_data.indexOf(item) < 0) {
             var seed = randomIntFromInterval(1000, 10000);
             var idx = randomIntFromInterval(0, data.length - 1);
             for (var s = 0; s <= seed; s++) {
@@ -32,7 +36,7 @@ function g_shuffle() {
         new_data.push(item);
         var tmp_data = []
         for (var idx = 0; idx < cur_data.length; idx++) {
-            if ('' + cur_data[idx] == item) {
+            if ('' + cur_data[idx] == item || '' + cur_data[idx] == 'undefined') {
                 continue;
             }
             tmp_data.push('' + cur_data[idx]);
@@ -42,7 +46,6 @@ function g_shuffle() {
     data = new_data;
     index = 0;
     g_show(index);
-    alert('' + data);
 }
         
 function g_onload() {
