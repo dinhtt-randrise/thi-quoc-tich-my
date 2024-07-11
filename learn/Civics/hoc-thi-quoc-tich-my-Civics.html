@@ -96,7 +96,7 @@ function g_go_next() {
 
 function g_go_previous() {
     index -= 1;
-    if (index >= 0) {
+    if (index <= 0) {
         index = 0;
     }
     g_show(index);
