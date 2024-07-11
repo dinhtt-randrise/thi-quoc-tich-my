@@ -1,0 +1,5 @@
+Are you currently a member of the U.S. armed forces?
+
+=>
+
+No
