@@ -1,0 +1,198 @@
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1">
+    <link rel="icon" href="http://randrise.com/favicon.png" />
+    <title>Học thi quốc tịch Mỹ - Personal Information</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script>
+var data = ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13', '14', '15', '16', '17', '18', '19', '20', '21', '22', '23', '24', '25', '26', '27', '28', '29', '30', '31', '32', '33', '34', '35', '36', '37', '38', '39', '40', '41', '42', '43', '44', '45', '46', '47', '48', '49', '50', '51', '52', '53', '54', '55', '56', '57', '58', '59', '60', '61', '62', '63', '64', '65', '66', '67', '68', '69', '70', '71', '72', '73', '74', '75', '76', '77', '78', '79', '80', '81', '82', '83', '84', '85', '86', '87', '88', '89', '90', '91', '92', '93', '94', '95', '96', '97', '98', '99', '100'];
+var index = 0;
+
+function g_shuffle() {
+    var cur_data = [];
+    for (var idx = 0; idx < data.length; idx++) {
+        var item = '' + data[idx];
+        if (item == 'undefined') {
+            continue
+        }
+        cur_data.push(item);
+    }
+    var new_data = []
+    while (cur_data.length > 0) {
+        var seed = randomIntFromInterval(1000, 10000);
+        var idx = randomIntFromInterval(0, data.length - 1);
+        for (var s = 0; s <= seed; s++) {
+            idx = randomIntFromInterval(0, data.length - 1);
+        }
+        var item = '' + data[idx];
+        while (item == 'undefined' || cur_data.indexOf(item) < 0) {
+            var seed = randomIntFromInterval(1000, 10000);
+            var idx = randomIntFromInterval(0, data.length - 1);
+            for (var s = 0; s <= seed; s++) {
+                idx = randomIntFromInterval(0, data.length - 1);
+            }
+            item = '' + data[idx];
+        }
+        new_data.push(item);
+        var tmp_data = []
+        for (var idx = 0; idx < cur_data.length; idx++) {
+            if ('' + cur_data[idx] == item || '' + cur_data[idx] == 'undefined') {
+                continue;
+            }
+            tmp_data.push('' + cur_data[idx]);
+        }
+        cur_data = tmp_data;
+    }
+    data = new_data;
+    index = 0;
+    g_show(index);
+}
+        
+function g_onload() {
+    $(window).resize(function() {
+        g_resize(); 
+    });
+    g_resize();
+    g_show(index);
+}
+
+function g_resize() {
+    var w = $(window).width();
+    $('.yo-space').width(w - 32);
+    $('.yo-bar').width(w - 32);
+}
+
+function g_show(index) {
+    key = data[index];
+    txt_url = 'https://raw.githubusercontent.com/dinhtt-randrise/thi-quoc-tich-my/main/learn/PI/' + key + '.txt';
+    mp3_url = 'https://raw.githubusercontent.com/dinhtt-randrise/thi-quoc-tich-my/main/learn/PI/' + key + '.mp3';
+
+    $('#yo-mq2 b').text('' + index);
+    $('#yo-mq a').text(mp3_url);
+    $('#yo-mq a').attr('href', mp3_url);
+
+    $('#yo-tq a').text(txt_url);
+    $('#yo-tq a').attr('href', txt_url);
+
+    g_show_front();
+}
+
+function g_show_front() {
+    $('#yo-front').show();
+    $('#yo-back').hide();
+}
+
+function g_show_back() {
+    $('#yo-front').hide();
+    $('#yo-back').show();
+}
+
+function g_go_next() {
+    index += 1;
+    if (index >= data.length) {
+        index = data.length - 1;
+    }
+    g_show(index);
+}
+
+function g_go_previous() {
+    index -= 1;
+    if (index <= 0) {
+        index = 0;
+    }
+    g_show(index);
+}
+
+function g_go_random() {
+    index = randomIntFromInterval(0, data.length - 1);
+    g_show(index);    
+}
+
+function play_mp3(k) {
+    key = data[index];
+    txt_url = 'https://raw.githubusercontent.com/dinhtt-randrise/thi-quoc-tich-my/main/learn/PI/' + key + '.txt';
+    mp3_url = 'https://raw.githubusercontent.com/dinhtt-randrise/thi-quoc-tich-my/main/learn/PI/' + key + '.mp3';
+
+    playSound(mp3_url);
+}
+
+function open_txt(k) {
+    key = data[index];
+    if (k == 'TQP') {
+      txt_url = 'https://raw.githubusercontent.com/dinhtt-randrise/thi-quoc-tich-my-bv/main/learn/PI/' + key + '.txt';
+    } else {
+      txt_url = 'https://raw.githubusercontent.com/dinhtt-randrise/thi-quoc-tich-my/main/learn/PI/' + key + '.txt';
+    }
+    mp3_url = 'https://raw.githubusercontent.com/dinhtt-randrise/thi-quoc-tich-my/main/learn/PI/' + key + '.mp3';
+
+    window.open(txt_url, '_blank');
+}
+
+function randomIntFromInterval(min, max) { // min and max included 
+  return Math.floor(Math.random() * (max - min + 1) + min)
+}
+
+function playSound(url) {
+    var a = new Audio(url);
+    a.play();
+}
+    </script>
+    <style>
+body {
+    margin: 0px;
+    padding: 0px;
+}
+.yo-button {
+    border: solid 1px green;
+    border-radius: 10px 0px 10px 0px;
+    display: inline-block;
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    text-align: center;
+    cursor: pointer;
+    cursor: hand;
+    padding: 2px 5px 2px 5px;
+    margin: 5px;
+}
+
+.yo-bar {
+    margin: 5px 0px 5px 0px; 
+    float: left;
+}
+
+.yo-space {
+    float: left;
+    margin: 5px 0px 5px 5px;
+    border: solid 1px green;
+    border-radius: 5px;
+    padding: 10px;
+}
+    </style>
+</head>
+<body onload="g_onload()">
+    <div class="yo-bar">
+        <span class="yo-button" style="width: 75px" onclick="g_go_previous()">Previous</span>
+        <span class="yo-button" style="width: 75px" onclick="g_go_next()">Next</span>
+        <span class="yo-button" style="width: 75px" onclick="g_go_random()">Random</span>
+        <span class="yo-button" style="width: 75px" onclick="g_show_front()">Front</span>
+        <span class="yo-button" style="width: 75px" onclick="g_show_back()">Back</span>
+        <span class="yo-button" style="width: 75px" onclick="g_shuffle()">Shuffle</span>
+        <span class="yo-button" style="width: 85px" onclick="location='http://randrise.com'">randrise.com</span>
+    </div>
+    <div id="yo-front" class="yo-space">
+        <div id="yo-mq" style="padding-bottom: 10px; border-bottom: solid 1px gainsboro; display: none;"><a target="_blank" href=""></a></div>
+        <div id="yo-mq2" style="padding-bottom: 10px; border-bottom: solid 1px gainsboro;">Index: &nbsp; <b></b></a></div>
+        <div style="padding-top: 10px">
+            <span class="yo-button" style="width: 20px" onclick="play_mp3('MQ')">MQ</span>
+        </div>
+    </div>
+    <div id="yo-back" class="yo-space">
+        <div id="yo-tq" style="padding-bottom: 10px; border-bottom: solid 1px gainsboro;"><a target="_blank" href=""></a></div>
+        <div style="padding-top: 10px">
+            <span class="yo-button" style="width: 20px" onclick="open_txt('TQ')">TQ</span>
+            <span class="yo-button" style="width: 20px" onclick="open_txt('TQP')">TQP</span>
+        </div>
+    </div>
+</body>
+</html>
+
