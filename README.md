@@ -44,10 +44,6 @@
 # TRỌN BỘ THI QUỐC TỊCH MỸ 2024
 # https://www.youtube.com/playlist?list=PL7alNmFSl5m0rg9rE5e1ot2D8r_TUE5nf
 
-# Học 100 câu thi quốc tịch Mỹ
-# https://www.kaggle.com/code/dinhttrandrise/h-c-100-c-u-thi-qu-c-t-ch-m
-# http://randrise.com/hoc-100-cau-thi-quoc-tich-my.html
-
 # N400 YES/NO Questions 🍁 PHẦN 1 🍁 US Citizenship 2023 🍁 n400 (1)
 # https://www.youtube.com/watch?v=-hbnQgpSb9M
 
@@ -62,11 +58,17 @@
 
 
 ============================================
-             DỮ LIỆU
+            THẺ THÔNG TIN
   ---------------------------------------
 
-# 100 câu thi quốc tịch Mỹ
-# https://www.kaggle.com/code/dinhttrandrise/100-c-u-thi-qu-c-t-ch-m
+# U.S Citizenship Test - Civics
+# https://study.flashard.com/sl/6698ea6165af2/u-s-citizenship-test-civics.html
+
+# U.S Citizenship Test - N400
+# https://study.flashard.com/sl/6698eaad151f2/u-s-citizenship-test-n400.html
+
+# Học thi quốc tịch Mỹ - Civics
+# https://study.flashard.com/sl/6698f360c7448/hoc-thi-quoc-tich-my-civics.html
 
 
 ```
